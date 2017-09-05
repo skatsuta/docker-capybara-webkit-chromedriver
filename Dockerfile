@@ -1,5 +1,5 @@
-FROM ruby:2.2.1
-MAINTAINER Maxwell Health
+FROM ruby:2.4
+LABEL Maintainer: Soshi Katsuta
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
